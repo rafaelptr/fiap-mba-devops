@@ -5,8 +5,8 @@
       name: rafaelptr/devops2019
   - name: deploying container
     docker_container:
-        name: rafaelptr-devops2019-container
-        image: rafaelptr/devops2019
-        state: started
-        publish_ports:
-        - "5000:5000"
+      name: rafaelptr-devops2019-container
+      image: rafaelptr/devops2019
+      state: started
+      published_ports:
+      - "5000:5000"
